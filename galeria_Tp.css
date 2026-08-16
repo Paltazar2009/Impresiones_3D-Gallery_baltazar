@@ -11,14 +11,14 @@ body{
     padding: 20px;
 }
 
-header{
+header {
     position: relative;
     width: 100%;
     min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 140px;
+    padding: 10px 20px;
     margin-bottom: 20px;
 }
 
@@ -112,25 +112,47 @@ a:visited{
     color: #5A6E8C;
 }
 
+.btn-modo {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3b728f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+.btn-modo:hover {
+    background-color: #2b5f7d;
+    color: #90e0ef;
+    transform: translateY(-50%) scale(1.05);
+}
+
 /* ==========================================
    DISEÑO PARA CELULARES (MEDIA QUERY)
    ========================================== */
 @media (max-width: 600px) {
-    header{
+    header {
         flex-direction: column;
         gap: 15px;
         padding: 10px 0;
     }
 
-    .volver{
+    .volver, .btn-modo {
         position: static;
         transform: none;
-        align-self: flex-start;
-        font-size: 16px;
-        padding: 8px 16px;
+        width: 100%;
+        text-align: center;
     }
 
-    .volver:hover{
-        transform: scale(1.05);
+    .btn-modo:hover {
+        transform: scale(1.02);
     }
 }
