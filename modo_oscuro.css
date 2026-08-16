@@ -1,0 +1,64 @@
+body {
+    background-color: #1e222a;
+    color: #e0e6ed;
+}
+
+header {
+    background: #253342;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #b8e1ff;
+}
+
+.volver {
+    background-color: #253342;
+    color: #b8e1ff;
+    border: 2px solid #4a6fa5;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.volver:hover {
+    background-color: #4a6fa5;
+    color: #ffffff;
+}
+
+section {
+    background: #28303d;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    background-color: #253342;
+    color: #b8e1ff;
+}
+
+.gal {
+    background-color: #232a34;
+}
+
+.item {
+    background: #1e242d;
+    border: 2px solid #4a6fa5;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.item:hover {
+    box-shadow: 0 8px 18px rgba(123, 154, 204, 0.4);
+}
+
+a:link,
+a:visited {
+    color: #b8e1ff;
+}
+
+.btn-modo {
+    background-color: #4a6fa5;
+    color: #ffffff;
+}
+
+.btn-modo:hover {
+    background-color: #3b5984;
+    color: #b8e1ff;
+}
