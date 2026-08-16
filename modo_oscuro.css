@@ -24,6 +24,17 @@ h1 {
     color: #ffffff;
 }
 
+.btn-modo {
+    background-color: #4a6fa5;
+    color: #ffffff;
+    border: 2px solid #7b9acc;
+}
+
+.btn-modo:hover {
+    background-color: #3b5984;
+    color: #b8e1ff;
+}
+
 section {
     background: #28303d;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -46,19 +57,4 @@ h2 {
 
 .item:hover {
     box-shadow: 0 8px 18px rgba(123, 154, 204, 0.4);
-}
-
-a:link,
-a:visited {
-    color: #b8e1ff;
-}
-
-.btn-modo {
-    background-color: #4a6fa5;
-    color: #ffffff;
-}
-
-.btn-modo:hover {
-    background-color: #3b5984;
-    color: #b8e1ff;
 }
