@@ -11,15 +11,15 @@ body{
     padding: 20px;
 }
 
-header {
-    position: relative;
+header{
     width: 100%;
     min-height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    padding: 15px 35px;
+    margin-bottom: 25px;
+    gap: 15px;
 }
 
 h1{
